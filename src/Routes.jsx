@@ -7,7 +7,7 @@ function Routes() {
     <Router>
       {/* Route components would be visible only at their route */}
       <Switch>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
 
         <Route path="/about" element={<About />} />
       </Switch>
