@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Montserat";
+  src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Montserat;
+  // background-color: black;
+}
+
+nav {
+  z-index: 3;
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  .nav_content {
+    a {
+      text-decoration: none;
+      transition: 0.3s;
+      color: black;
+    }
+    :hover {
+      color: #d78d1d;
+    }
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+    color: black;
+    box-shadow: 1px 15px 15px -7px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img_logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+// Home page
+.home_paris_img {
+  width: 100vw;
+  height: 70vh;
+}
+
+.home__content {
+  padding: 2vw;
+  // &--secondary{
+  //   background-color: white;
+  //   color: black;
+  // }
+  &--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    height: 10vh;
+    // border: 3px solid #B47F31;
+    // border-radius: 50px;
+    font-size: 32px;
+    text-align: center;
+    color: #b47f31;
+  }
+  &--us {
+    font-size: 16px;
+  }
+}
+// BOX
+
+.box__content {
+  background-color: black;
+  padding: 20px;
+  color: white;
+
+  &--title {
+    text-align: center;
+    width: 96vw;
+    height: 10vh;
+    font-size: 32px;
+    color: #b47f31;
+  }
+  &--items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &--item {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+  }
+}
+// RENT PAGE
+
+.rent_container,
+.nomatch_container {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 20px;
+}
+
+//footer
+
+.footer__content {
+  height: 10vh;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: #d78d1d;
+  color: white;
+}

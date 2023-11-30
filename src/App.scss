@@ -1,3 +1,6 @@
+@import "./components/style.scss" ;
+
+
 .App {
   text-align: center;
 }
@@ -21,7 +24,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  font-size: 12px;
+  color: #282c34;
 }
