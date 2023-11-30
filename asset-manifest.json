@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/GTI94/static/css/main.baf14021.css",
-    "main.js": "/GTI94/static/js/main.e0b42ab6.js",
-    "static/js/787.9ef250a0.chunk.js": "/GTI94/static/js/787.9ef250a0.chunk.js",
-    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/GTI94/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
-    "static/media/maison.jpg": "/GTI94/static/media/maison.6cb5d836088d6d49fef5.jpg",
-    "static/media/LOGO_PAS_COMPLET.png": "/GTI94/static/media/LOGO_PAS_COMPLET.348c2ca139fc4477594e.png",
-    "index.html": "/GTI94/index.html",
-    "main.baf14021.css.map": "/GTI94/static/css/main.baf14021.css.map",
-    "main.e0b42ab6.js.map": "/GTI94/static/js/main.e0b42ab6.js.map",
-    "787.9ef250a0.chunk.js.map": "/GTI94/static/js/787.9ef250a0.chunk.js.map"
+    "main.css": "/static/css/main.7f3c809a.css",
+    "main.js": "/static/js/main.fbcf93df.js",
+    "static/js/787.9ef250a0.chunk.js": "/static/js/787.9ef250a0.chunk.js",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
+    "static/media/maison.jpg": "/static/media/maison.6cb5d836088d6d49fef5.jpg",
+    "static/media/LOGO_PAS_COMPLET.png": "/static/media/LOGO_PAS_COMPLET.348c2ca139fc4477594e.png",
+    "index.html": "/index.html",
+    "main.7f3c809a.css.map": "/static/css/main.7f3c809a.css.map",
+    "main.fbcf93df.js.map": "/static/js/main.fbcf93df.js.map",
+    "787.9ef250a0.chunk.js.map": "/static/js/787.9ef250a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baf14021.css",
-    "static/js/main.e0b42ab6.js"
+    "static/css/main.7f3c809a.css",
+    "static/js/main.fbcf93df.js"
   ]
 }
