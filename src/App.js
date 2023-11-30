@@ -14,7 +14,7 @@ function App() {
       <HashRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/rent" element={<Rent />} />
           <Route path="/gestion" element={<Gestion />} />
           <Route path="/contact" element={<Contact />} />
