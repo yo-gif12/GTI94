@@ -1,5 +1,5 @@
 import "./App.scss";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { Routes, Route, HashRouter} from "react-router-dom";
 import Gestion from "./pages/Gestion";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -11,16 +11,16 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/GTI94" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/rent" element={<Rent />} />
           <Route path="/gestion" element={<Gestion />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   );
