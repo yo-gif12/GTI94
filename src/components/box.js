@@ -1,14 +1,14 @@
 import React from "react";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 
 const Box = () => {
   return (
     <>
-      <Slide left>
+      {/* <Slide left> */}
         <section className="box__content box__content--secondary">
           <h1 className="box__content--title">Nos Avantages</h1>
           <div className="box__content--items">
-            <Slide right>
+            {/* <Slide right> */}
               <div className="box__content--item">
                 <h2>Professionnalisme</h2>
                 <p>
@@ -16,8 +16,8 @@ const Box = () => {
                   administratives et juridiques
                 </p>
               </div>
-            </Slide>
-            <Slide left>
+            {/* </Slide> */}
+            {/* <Slide left> */}
               <div className="box__content--item">
                 <h2>Accompagnement</h2>
                 <p>
@@ -25,8 +25,8 @@ const Box = () => {
                   chaque étape
                 </p>
               </div>
-            </Slide>
-            <Slide right>
+            {/* </Slide> */}
+            {/* <Slide right> */}
               <div className="box__content--item">
                 <h2>Disponibilité</h2>
                 <p>
@@ -34,8 +34,8 @@ const Box = () => {
                   prendre les bonnes décisions
                 </p>
               </div>
-            </Slide>
-            <Slide left>
+            {/* </Slide> */}
+            {/* <Slide left> */}
               <div className="box__content--item">
                 <h2>Sécurité</h2>
                 <p>
@@ -43,10 +43,10 @@ const Box = () => {
                   garantir vos loyers
                 </p>
               </div>
-            </Slide>
+            {/* </Slide> */}
           </div>
         </section>
-      </Slide>
+      {/* </Slide> */}
     </>
   );
 };
